@@ -20,8 +20,7 @@ public class MainClass
 		
 		U.add(new Upi("7401326676", 6676));
 		U.add(new Upi("9710127528", 7528));
-		U.add(new Upi("9841126167", 6167));	
-		
+		U.add(new Upi("9841126167", 6167));
 		
 		
 		Scanner sc = new Scanner(System.in);
@@ -93,14 +92,14 @@ public class MainClass
 					
 					if (op == 1)
 					{
-						Upi u = new Upi(null,0);
-						u.withDrawl(L, U);
+						Gpay G = new Upi(null,0);
+						G.withDrawl(L, U);
 						
 					}
 					else if (op == 2 )
 					{
-						Upi u = new Upi(null,0);
-						u.checkBalance(L, U);
+						Gpay G = new Upi(null,0);
+						G.checkBalance(L, U);
 						
 					}
 					
@@ -121,14 +120,14 @@ public class MainClass
 					
 					if (op == 1)
 					{
-						Upi u = new Upi(null,0);
-						u.withDrawl(L, U);
+						PayTym P = new Upi(null,0);
+						P.withDrawl(L, U);
 						
 					}
 					else if (op == 2 )
 					{
-						Upi u = new Upi(null,0);
-						u.checkBalance(L, U);
+						PayTym P = new Upi(null,0);
+						P.checkBalance(L, U);
 						
 					}
 					else
@@ -147,14 +146,14 @@ public class MainClass
 					
 					if (op == 1)
 					{
-						Upi u = new Upi(null,0);
-						u.withDrawl(L, U);
+						PhonePay P = new Upi(null,0);
+						P.withDrawl(L, U);
 						
 					}
 					else if (op == 2 )
 					{
-						Upi u = new Upi(null,0);
-						u.checkBalance(L, U);
+						PhonePay P = new Upi(null,0);
+						P.checkBalance(L, U);
 						
 					}
 					else
@@ -175,8 +174,8 @@ public class MainClass
 			}
 			
 			}
-		}
-			
+		}	
+				
 	}
 }
 
